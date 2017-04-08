@@ -32,15 +32,24 @@ The MIT License
             <div id="todo-form" class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <form>
-                        <div class="form-group">
-                            <input type="text" class="form-control input-lg text-center" placeholder="Nombre" ng-model="user.nombre">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control input-lg text-center" placeholder="Paterno" ng-model="user.paterno">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control input-lg text-center" placeholder="Materno" ng-model="user.materno">
-                        </div>
+                   
+
+		<div class="form-group">
+			<input type="text" class="form-control input-lg text-center" placeholder="Marca" ng-model="user.marca">
+				</div>
+		<div class="form-group">
+			<input type="numeric" class="form-control input-lg numeric-center" placeholder="Modelo" ng-model="user.modelo">
+				</div>
+		<div class="form-group">
+			<input type="text" class="form-control input-lg text-center" placeholder="Color" ng-model="user.color">
+				</div>
+		<div class="form-group">
+			<input type="numeric" class="form-control input-lg numeric-center" placeholder="Serie" ng-model="user.serie">
+				</div>
+		<div class="form-group">
+			<input type="numeric" class="form-control input-lg numeric-center" placeholder="Precio" ng-model="user.precio">
+				</div>
+
                         <button type="submit" class="btn btn-primary btn-lg" ng-click="create(user)">Agregar</button>
                     </form>
                 </div>
