@@ -23,7 +23,7 @@ The MIT License
                 <button type="submit" class="btn btn-primary btn-lg" ng-click="get()">Cargar usuarios</button>
             </div>
 
-            <div id="todo-list" class="row">
+            <center><div id="todo-list" class="row">
                 <div class="col-sm-4 col-sm-offset-4">
 
                     <div class="checkbox" ng-repeat="item in users">
@@ -33,7 +33,7 @@ The MIT License
                     </div>
 
                 </div>
-            </div>
+            </div></center>
 
             <div id="todo-form" class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
@@ -44,16 +44,16 @@ The MIT License
 			<input type="text" class="form-control input-lg text-center" placeholder="Marca" ng-model="user.marca">
 				</div>
 		<div class="form-group">
-			<input type="numeric" class="form-control input-lg numeric-center" placeholder="Modelo" ng-model="user.modelo">
+			<input type="numeric" class="form-control input-lg text-center" placeholder="Modelo" ng-model="user.modelo">
 				</div>
 		<div class="form-group">
 			<input type="text" class="form-control input-lg text-center" placeholder="Color" ng-model="user.color">
 				</div>
 		<div class="form-group">
-			<input type="numeric" class="form-control input-lg numeric-center" placeholder="Serie" ng-model="user.serie">
+			<input type="numeric" class="form-control input-lg text-center" placeholder="Serie" ng-model="user.serie">
 				</div>
 		<div class="form-group">
-			<input type="numeric" class="form-control input-lg numeric-center" placeholder="Precio" ng-model="user.precio">
+			<input type="numeric" class="form-control input-lg text-center" placeholder="Precio" ng-model="user.precio">
 				</div>
 
                         <button type="submit" class="btn btn-primary btn-lg" ng-click="create(user)">Agregar</button>
